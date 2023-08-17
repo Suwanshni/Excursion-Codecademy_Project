@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,44 +8,68 @@
     <link href="resources/css/style.css" rel="stylesheet">
     <title>Excursion</title>
 </head>
+
 <body>
 
-    <!--Header-->
-    <header id="up">
-        <h1>Discover hidden places in the world around you</h1>
-        <a href="#" class="download"><h4>Download Excursion (Coming soon!)</h4></a>
-    </header>
-    
-    <!--Video-->
-    <center>
-        <video muted loop autoplay>
-            <source src="excursion.mp4">
-        </video>
-    </center>
+    <!--For Desktops-->
+    <div class="desktop">
 
-    <!--Your personal travel guide-->
-    <section>
-        <h1>Your personal travel guide</h1>
-        <h4 class="section-h4">Excursion remembers places you like, and recommends new points of interest around you.</h4>
-    </section>
-    
-    <!--Camping Image-->
-    <center>
-        <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/camp.jpg" alt="Camping Image">
-    </center><br>
+        <!--Header-->
+        <header>
+            <h1 id="up">Discover hidden places in the world around you</h1>
+            <a href="#" class="download">
+                <h4>Download Excursion (Coming soon!)</h4>
+            </a>
+        </header>
 
-    <!--Mobile Image-->
-    <center>
-        <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/phone.png" alt="Mobile Image" class="">
-    </center>
+        <!--Video-->
+        <center>
+            <video muted loop autoplay>
+                <source src="excursion.mp4">
+            </video>
+        </center>
 
-    <!--Coing Soon-->
-    <section>
-        <h1>Coming Soon for iPhone and Android</h1>
-        <a href="#up" ><h4 class="download">Download Excursion (Coming soon!)</h4></a>
-    </section>
-    
-    <!--Footer-->
-    <footer>&#169; Excursion</footer>
+        <!--Your personal travel guide-->
+        <section>
+            <h1>Your personal travel guide</h1>
+            <h4 class="section-h4">Excursion remembers places you like, and recommends new points of interest around
+                you.
+            </h4>
+        </section>
+
+        <!--Camping Image-->
+        <div>
+            <center>
+                <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/camp.jpg"
+                    alt="Camping Image" style="height: 2%; width: fit-content;">
+            </center><br>
+        </div>
+
+        <!--Mobile Image-->
+        <center>
+            <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/phone.png"
+                alt="Mobile Image" class="">
+        </center>
+
+        <!--Coming Soon-->
+        <section>
+            <h1>Coming Soon for iPhone and Android</h1>
+            <a href="#up">
+                <h4 class="download">Download Excursion (Coming soon!)</h4>
+            </a>
+        </section>
+
+        <!--Footer-->
+        <footer>&#169; Excursion</footer>
+    </div>
+
+    <!--For Mobile Phones and Tablets-->
+    <div class="phone">
+        <center>
+            <h2 class="phone-h2">This webpage is not accessible on mobile phones or tablets.<br>You can open it in your
+                desktop browser.</h2>
+        </center>
+    </div>
 </body>
+
 </html>
